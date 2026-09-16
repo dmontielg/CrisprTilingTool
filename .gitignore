@@ -1,0 +1,7 @@
+.DS_Store
+.Rhistory
+*.txt
+connect_shiny.R
+rsconnect/
+Presentation.pptx
+
