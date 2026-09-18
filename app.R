@@ -70,9 +70,9 @@ server <- function(input, output, session) {
                                                     Genome)
             #print(head(df_table_out))
 
-            #output$table = shiny::renderTable(df_table_out)
+            output$table = shiny::renderTable(df_table_out)
 
-            output$table = DT::renderDataTable({df_table_out})
+            #output$table = DT::renderDataTable({df_table_out})
 
             data_table_react <- reactive({ df_table_out })
             output$downloadData <- downloadHandler(
